@@ -1,0 +1,348 @@
+.swiper-container{
+	width: 309px;
+	height: 549px;
+	border:1px solid orange;
+}
+.swiper-slide{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+/* 第一幅图 */
+/* 背景 */
+.resume{
+	width: 100%;
+	height: 100%;
+	background:url(../image/bg5.jpg) no-repeat;
+	background-size:100% 100%;
+	position:relative;
+}
+/* 音乐播放界面 */
+.music{
+	display:inline-block;
+	width:30px;
+	height:30px;
+	margin-left:250px;
+	animation:rotateMusic 5s linear infinite;
+}
+@keyframes rotateMusic{
+	0%{transform:rotate(0deg);}
+	25%{transform:rotate(90deg);}
+	50%{transform:rotate(180deg);}
+	75%{transform:rotate(270deg);}
+	100%{transform:rotate(360deg);}
+}
+/* personal resume */
+.word1{
+	color:#fff;
+	font-size:16px;
+	text-align:center;
+	font-weight:700;
+	margin-top:-20px;
+}
+/* 个人简历 */
+.word2{
+	width: 150px;
+	height: 25px;
+	margin:0 auto;
+	color:#fff;
+	font-size:25px;
+	text-align:center;
+	font-weight:500;
+	padding-bottom:10px;
+	border-bottom:1px solid #fff;
+}
+/* 旋转头像 */
+.headPicture{
+	display:inline-block;
+	width: 50%;
+	height: 50%;
+	margin-left:25%;
+}
+/* 求职前端工程师 */
+.word3{
+	color:#fff;
+	font-size:22px;
+	text-align:center;
+	font-weight:500;
+}
+/* 我 心怀梦想 有志气 */
+.word4{
+	color:#fff;
+	font-size:22px;
+	text-align:center;
+	font-weight:500;
+}
+/* 进一步了解 */
+.know-more{
+	display:inline-block;
+	width: 180px;
+	height: 40px;
+	position:absolute;
+	left:50%;
+	margin-left:-90px;
+}
+.word5{
+	display:inline-block;
+	
+	width:60px;
+	font-size:12px;
+	position:absolute;
+	top:415px;
+	left:50%;
+	margin-left:-30px;
+}
+
+
+/* 第二幅图 */
+/* 背景图1*/
+.information{
+	width: 100%;
+	height: 100%;
+	background:url(../image/bg1.png) no-repeat;
+	background-size:100% 100%;
+	position:relative;
+}
+/* 背景图2 */
+.information-img{
+	display:inline-block;
+	width: 90%;
+	height: 80%;
+	margin-left:10px;
+}
+/* 基本信息 */
+.detail-header{
+	position:absolute;
+	z-index:1;
+	width: 68px;
+	height: 20px;
+	padding:5px;
+	top:90px;
+	left:30px;
+	color:#c7c4a6;
+	border:2px dashed #c7c4a6;
+	font-weight:700;
+}
+/* 详细信息部分 */
+.detail-main{
+	position:absolute;
+	z-index:1;
+	color:#c7c4a6;
+	top:120px;
+	left:30px;
+	font-weight:700;
+}
+/* 头像部分 */
+.picture{
+	display:inline-block;
+	width: 70px;
+	height: 100px;
+	position:absolute;
+	z-index:1;
+	top:90px;
+	right:50px;
+	box-shadow: 5px 5px 5px cyan;
+}
+
+
+
+
+/* 第三幅图 */
+/* 背景图 */
+.skill{
+	width: 100%;
+	height: 100%;
+	background:url(../image/bg8.jpg) no-repeat;
+	background-size:100% 100%;
+	position:relative;
+}
+/* 头部专业技能部分 */
+.skill-header-word{
+	width: 180px;
+	text-align:center;
+	margin:0 auto;
+	color:#fff;
+	font-size:25px;
+	font-weight:800;
+	border:1px dashed cyan;
+	padding:10px 25px;
+}
+/* 中间主体部分 */
+.skill-detail{
+	width: 100%;
+	height: 50px;
+	position:relative;
+	margin-top: 25px;
+}
+.skill-picture{
+	display:inline-block;
+	width: 60px;
+	height: 50px;
+	vertical-align:center;
+	margin-left:30px;
+}
+.skill-word{
+	display:inline-block;
+	width: 150px;
+	height: 50px;
+	color:#fff;
+	text-align:center;
+	line-height:50px;
+	position:absolute;
+	top:0;
+	margin-left:40px;
+}
+/* 底部箭头按钮部分 */
+.skill-bottom-picture{
+	display:inline-block;
+	position:absolute;
+	left:50%;
+	margin-left:-12px;
+	animation:moveTip 1s linear infinite forwards;
+}
+@keyframes moveTip{
+	0%{
+		bottom:5px;
+		opacity:1;
+	}
+	100%{
+		bottom:15px;
+		opacity:0.4;
+	}
+}
+
+
+/* 第四幅图 */
+/* 背景图 */
+.expirence{
+	width: 100%;
+	height: 100%;
+	background:url(../image/bg7.jpg) no-repeat;
+	background-size:100% 100%;
+	position:relative;
+}
+/* 左侧部分 */
+.expirence-left{
+	width: 150px;
+	position:absolute;
+	left:0;
+}
+.expirence-left-word{
+	width: 150px;
+	float:left;
+	padding:14px 0;
+	color:#fff;
+}
+/* 中间伸缩条部分 */
+.expirence-middle{
+	/* width: 9px; */
+	width: 9px;
+	background-color:cyan;
+	position:absolute;
+	border-radius:4.5px;
+	top:130px;
+	left: 50%;
+	margin-left:-4.5px;
+	animation:moveLine 3s linear 0.7s forwards;
+}
+@keyframes moveLine{
+	0%{
+		height:0;
+	}
+	100%{
+		height:350px;
+	}
+}
+.circle1{
+	width: 12px;
+	height: 12px;
+	border-radius:6px;
+	background-color:orange;
+	position:absolute;
+	left:50%;
+	margin-left:-6px;
+	top:150px;
+}
+.circle2{
+	width: 12px;
+	height: 12px;
+	border-radius:6px;
+	background-color:orange;
+	position:absolute;
+	left:50%;
+	margin-left:-6px;
+	top:250px;
+}
+.circle3{
+	width: 12px;
+	height: 12px;
+	border-radius:6px;
+	background-color:orange;
+	position:absolute;
+	left:50%;
+	margin-left:-6px;
+	top:350px;
+}
+.circle4{
+	width: 12px;
+	height: 12px;
+	border-radius:6px;
+	background-color:orange;
+	position:absolute;
+	left:50%;
+	margin-left:-6px;
+	top:450px;
+}
+
+
+
+/* 右侧部分 */
+.expirence-right{
+	width: 150px;
+	position:absolute;
+	right:0;
+}
+.expirence-right-word{
+	width: 150px;
+	float:left;
+	padding:14px 0;
+	color:#fff;
+}
+
+
+
+/* 第五幅图 */
+/* 背景图 */
+.phone{
+	width: 100%;
+	height: 100%;
+	background:url(../image/bg9.jpg) no-repeat;
+	background-size:100% 100%;
+	position:relative;
+}
+/* 文字部分 */
+.phone-word{
+	color:#fff;
+	font-weight:700;
+	font-size:14px;
+	padding:10px 0;
+	text-align:center;
+}
+
+
+/* 第六幅图 */
+/* 背景图 */
+.thanks{
+	width: 100%;
+	height: 100%;
+	background:url(../image/bg2.png) no-repeat;
+	background-size:100% 100%;
+}
+/* 文字部分 */
+.thanks-word{
+	color:#fff;
+	font-weight:700;
+	font-size:35px;
+	padding:10px 0;
+	text-align:center;
+}
